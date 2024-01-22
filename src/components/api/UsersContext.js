@@ -1,5 +1,5 @@
 import React, { createContext, useReducer, useContext } from 'react';
-import createAsyncDispatcher from './asyncActionUtils';
+import { createAsyncDispatcher } from './asyncActionUtils';
 import * as api from './api';
 
 const initialState = {
